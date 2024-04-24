@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Catamaran';
+    src: url('Catamaran-Regular.eot');
+    src: url('Catamaran-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Catamaran-Regular.woff2') format('woff2'),
+        url('Catamaran-Regular.woff') format('woff'),
+        url('Catamaran-Regular.ttf') format('truetype'),
+        url('Catamaran-Regular.svg#Catamaran-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,123 @@
+/* our blok start */
+.container-our {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.block-our-services {
+    width: 1320px;
+    height: 840px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block-title-place {
+    width: 100%;
+    height: 123px;
+    text-align: center;
+}
+.sub-title {
+    font-size: 16px;
+    color: #ff9800;
+}
+h2 {
+    font-size: 40px;
+}
+.block-items-our {
+    width: 440px;
+    height: 358px;
+    padding: 0px 12px;
+    box-sizing: border-box;
+    position: relative;
+}
+.block-items-link {
+    width: 416px;
+    height: 328px;
+    background-color: var(--w);
+    box-shadow: 5px 7px 15px 2px rgba(82, 90, 101, 0.12);
+    position: absolute;
+    padding: 35px 30px;
+    box-sizing: border-box;
+    top: 0;
+    left: 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+.block-items-our:hover .block-items-link {
+    top: -10px;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+.block-icon {
+    width: 50px;
+    height: 75px;
+    margin-bottom: 15px;
+}
+.block-icon i {
+    font-size: 50px;
+    color: #ff561d;
+}
+.block-items-link h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.block-items-link p {
+    font-size: 16px;
+    color: #5f5f5f;
+    margin: 15px 0px;
+    line-height: 1.8;
+}
+.read-more a {
+    color: #7b68ee;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.read-more i {
+    font-size: 24px;
+    margin-right: 5px;
+    color: #7b68ee;
+    display: flex;
+    align-items: center;
+    transition: all 400ms ease-out;
+}
+.read-more:hover i {
+    transform: translateX(5px);
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+}
+.block-items-our:hover .fa-imdb {
+    transform: scaleX(-1);
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+}
+.fa-imdb {
+    transition: all 400ms ease-out;
+}
