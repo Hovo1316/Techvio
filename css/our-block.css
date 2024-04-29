@@ -106,7 +106,7 @@ h2 {
     -ms-transform: translateX(5px);
     -o-transform: translateX(5px);
 }
-.block-items-our:hover .fa-imdb {
+.block-items-our:hover .fa {
     transform: scaleX(-1);
     transition: all 400ms ease-out;
     -webkit-transition: all 400ms ease-out;
@@ -118,6 +118,6 @@ h2 {
     -ms-transform: scaleX(-1);
     -o-transform: scaleX(-1);
 }
-.fa-imdb {
+.fa {
     transition: all 400ms ease-out;
 }

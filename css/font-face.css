@@ -10,3 +10,11 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: "flaticon";
+    src: url("./../font/flaticon/flaticon.ttf") format("truetype"),
+	url("./../font/flaticon/flaticon.woff") format("woff"),
+	url("./../font/flaticon/flaticon.woff2") format("woff2"),
+	url("./../font/flaticon/flaticon.eot") format("embedded-opentype"),
+	url("./../font/flaticon/flaticon.svg") format("svg");
+}
