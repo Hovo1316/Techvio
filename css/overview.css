@@ -65,12 +65,12 @@
     overflow: hidden;
 }
 .link-overview span {
-    display: block;
     padding: 0px 15px;
     color: #404040;
     font-size: 16px;
     font-weight: 600;
     box-sizing: border-box;
+    transition: all 0.4s;
 }
 .link-overview li::before {
     content: "";
@@ -93,4 +93,5 @@
 }
 .link-overview li:hover span {
     color: #ffffff;
-} 
+    transition: all 0.4s;
+}
