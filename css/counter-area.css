@@ -1,0 +1,43 @@
+.counter-area {
+    width: 100%;
+    background: url(./../Imiges/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter-area-block {
+    width: 1320px;
+    height: 96px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.counter-area-list {
+    width: 306px;
+    height: 96px;
+    padding: 0 12px;
+}
+.counter-area-list h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    word-spacing: -5px;
+    line-height: 1.4;
+}
+.counter-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+}
