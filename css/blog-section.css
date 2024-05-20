@@ -1,0 +1,13 @@
+.blog-section {
+    width: 100%;
+    padding: 100px 0 70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f8f8;
+}
+.blog-container {
+    width: 1320px;
+    height: 742px;
+    background-color: blue;
+}
