@@ -154,10 +154,20 @@ header {
     text-align: center;
     text-decoration: none;
     color: #ffffff;
-    line-height: 50px; 
+    line-height: 50px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
 }
 .getit-link:hover {
     background-color: #3e57d0;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
 }
 /* get-it end */
 

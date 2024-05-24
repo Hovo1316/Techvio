@@ -1,0 +1,32 @@
+.footer-subscribe {
+    width: 100%;
+    height: 642px;
+    position: relative;
+    z-index: 1;
+    background-color: #042c4c;
+}
+.footer-subscribe::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-image: url(./../Imiges/dot-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.subscribe-area {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+.footer-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
