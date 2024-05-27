@@ -51,6 +51,7 @@
     top: calc(50% - 25px);
     left: calc(50% - 75px);
     display: none;
+    z-index: 99;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -73,10 +74,11 @@
     border-radius: 10px;
     box-sizing: border-box;
     background-color: transparent;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 .team-media-items:hover {
     background-color: #7b68ee;

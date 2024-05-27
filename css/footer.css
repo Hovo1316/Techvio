@@ -20,13 +20,111 @@
     background-position: center center;
 }
 .subscribe-area {
-    position: relative;
+    width: 100%;
+    height: 178px;
+    /* position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
-    line-height: 1.5;
+    line-height: 1.5; */
     border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .footer-area {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.subscribe-container {
+    width: 1320px;
+    height: 77px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 12px;
+}
+.text-sub {
+    width: 636px;
+    height: 77px;
+}
+.text-sub h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.text-sub p {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+}
+.subscribe-form {
+    position: relative;
+    width: 636px;
+    margin: auto;
+}
+.input-sub {
+    color: #404040;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    display: block;
+    padding-left: 25px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: none;
+    outline: 0;
+}
+.subscribe-form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 30px;
+    border-radius: 0px 5px 5px 0px;
+    text-transform: capitalize;
+    background-color: #7b68ee;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.subscribe-form button:hover {
+    background-color: #ff9800;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.footer-area {
+    display: flex;
+    justify-content: center;    
+}
+.footer-area-conteiner {
+    width: 1320px;
+    height: 263px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ff9800;
+}
+.area-blok-4 {
+    width: 440px;
+    height: 100%;
+    background-color: #7b68ee;
+}
+.area-blok-2 {
+    width: 220px;
+    height: 100%;
+    background-color: aqua;
 }
